@@ -134,7 +134,7 @@ a.collab:hover, a.collab:active{
     list-style: none;
     padding: 20px;
 }
-div.mail{
+.mail{
     color: #64FFDA;
     writing-mode: vertical-lr;;
     text-orientation: mixed;
