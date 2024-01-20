@@ -33,23 +33,33 @@ nav{
 }
 .nav1{
     display: flex;
+    border: 0px solid green;
     justify-content: space-between;
     align-items: center;
 
 }
-.navitems li{
+.navitems{
+    display: flex;
+    border: 0px solid red;
+    justify-content: space-between;
+    align-items: center;
+}
+.navitems > div{
+    padding: 0px 25px;
+}
+/* .navitems ol li{
     border: 0px solid red;
     list-style-type: decimal-leading-zero;
     display: inline-flex;
     align-items: center;
     padding: 0px 30px;
-}
+} */
 
-.navitems ol li a:link, a:visited{
+.navitems > div a:link, a:visited{
     text-decoration: none;
     color:#CCD6F6;
 }
-.navitems ol li a:hover, a:active{
+.navitems > div a:hover, a:active{
     color:#64FFDA;
 }
 .resume{
