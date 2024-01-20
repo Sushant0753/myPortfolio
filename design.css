@@ -128,17 +128,17 @@ a.collab:hover, a.collab:active{
 .connect{
     position: fixed;
     bottom:100px;
-    left:0;
+    left:50px;
 }
 .connect ol li{
     list-style: none;
-    padding: 20px;
+    padding: 10px;
 }
 .mail{
     position: fixed;
     bottom: 100px;
-    right: 20px;
-    writing-mode: vertical-lr;;
+    right: 50px;
+    writing-mode: vertical-lr;
     text-orientation: mixed;
     
 }
@@ -146,10 +146,51 @@ a.gmail:link, a.gmail:visited{
     text-decoration: none;
     color: #64FFDA;
 }
-.vl{
+.vl1{
     border-left: 2px solid #64FFDA;
     position: fixed;
-    height:98px;
+    height:80px;
     bottom:0px;
-    right:33px;
+    right:60px;
+}
+.vl2{
+    border-left: 2px solid #64FFDA;
+    position: fixed;
+    height:80px;
+    bottom:0px;
+    left:70px;
+}
+.main2{
+    border: 2px solid white;
+    margin-top: 300px;
+    display: flex;
+    flex-flow: column wrap;
+    padding-left: 300px;
+    padding-right: 300px;
+    justify-content: space-between;
+    height:500px;
+}
+.heading{
+    align-items: center;
+}
+.about{
+    border: 2px solid red;
+    width: 500px;
+    margin-top: 20px;
+    font-family: 'Roboto Mono', monospace;
+}
+.image{
+    position: absolute;
+    border: 2px solid green;
+    left:50%;
+
+}
+a.linkedin:link , a.linkedin:visited{
+    color:#CCD6F6;
+}
+a.linkedin:hover , a.linkedin:active{
+    color:red;
+}
+a.x:link , a.x:visited{
+    color:#CCD6F6;
 }
