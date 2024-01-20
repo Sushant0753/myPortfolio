@@ -135,12 +135,12 @@ a.collab:hover, a.collab:active{
     padding: 20px;
 }
 .mail{
-    color: #64FFDA;
-    writing-mode: vertical-lr;;
-    text-orientation: mixed;
     position: fixed;
     bottom: 100px;
     right: 20px;
+    writing-mode: vertical-lr;;
+    text-orientation: mixed;
+    
 }
 a.gmail:link, a.gmail:visited{
     text-decoration: none;
