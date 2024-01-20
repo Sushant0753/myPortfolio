@@ -134,3 +134,23 @@ a.collab:hover, a.collab:active{
     list-style: none;
     padding: 20px;
 }
+div.mail{
+    color: #64FFDA;
+    writing-mode: vertical-lr;
+    display: flex;
+    text-orientation: mixed;
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+}
+a.gmail:link, a.gmail:visited{
+    text-decoration: none;
+    color: #64FFDA;
+}
+.vl{
+    border-left: 2px solid #64FFDA;
+    position: fixed;
+    height:98px;
+    bottom:0px;
+    right:33px;
+}
