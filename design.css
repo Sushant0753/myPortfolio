@@ -71,37 +71,66 @@ a#resume1:link, a#resume1:visited{
     color: #64FFDA;
     text-decoration: none;
 }
-a#resume1:hover, a#resume1:active{
-    border: 5;
+
+a.collab:link, a.collab:visited{
+    text-decoration: none;
+    border: 2px solid #64FFDA;
+    padding: 10px;
+}
+a.collab:hover, a.collab:active{
+    position: relative;
+    color: #64FFDA;
+    top:-5px;
+    left:-5px;
 }
 .main{
     display: flex;
     flex-flow: column wrap;
+    justify-content: space-between;
     padding-top: 100px;
     padding-left: 250px;
     padding-right: 250px;
-    
+    border: 0px solid white;
+
 }
 .main > div{
-    padding: 10px;
+    border:0px solid white;
 }
+
 .section1{
     color: #64FFDA;
     font-family: 'Roboto Mono', monospace;
+    padding-top: 10px;
 }
 .section2{
     color:#CCD6F6;
     font-size: 80px;
+    padding-top: 10px;
     
 }
 .section3{
     color:#8892B0;
     font-size: 70px;
     font-family: 'Merriweather', serif;
+    padding-top: 10px;
     
 }
 .section4{
     color:#8892B0;
     width:650px;
     font-family: 'Roboto Mono', monospace;
+    padding-top: 10px;
+}
+.section5{
+    border: 2px solid red;
+    margin-top: 80px;
+}
+.connect{
+    position: fixed;
+    bottom:100px;
+    left:0;
+}
+.connect ol li{
+    list-style: none;
+    padding: 20px;
 }
